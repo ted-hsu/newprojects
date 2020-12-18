@@ -10,7 +10,7 @@
      *{
             margin: 0;
             padding: 0;
-            list-style: 0;
+            list-style: none;
         }
         html,body{
             height: 100%;
@@ -103,11 +103,11 @@
                transform: scale(0);
                transition: .3s;
            }
-        .nav li :hover .fa{
+        .nav li:hover .fa{
                margin-right: 0em;
                transform: scale(1);
            }
-        .nav li :hover >a {
+        .nav li:hover >a {
                background-color: rgba(0, 0, 0,.5);
            }   
         .nav ul{
@@ -199,5 +199,10 @@
             <i class="fa fa-angle-right"></i>
         </label>
     </div>
+    <ul class="nav">
+        <li>
+            hahaha
+        </li>
+    </ul>
 </body>
 </html>
